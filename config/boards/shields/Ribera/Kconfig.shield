@@ -1,0 +1,5 @@
+config SHIELD_RIBERA_LEFT
+    def_bool $(shields_list_contains,ribera_left)
+
+config SHIELD_RIBERA_RIGHT
+    def_bool $(shields_list_contains,ribera_right)
